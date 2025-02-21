@@ -12,11 +12,13 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgba(235, 76, 14, 0.3);
-    padding: 20px;
+    margin: 0 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 header {
-    padding: 0 50px;
+    margin: 0 50px;
 }
 header ul {
     background-color: rgba(10, 200, 9, 0.3);
