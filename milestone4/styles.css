@@ -43,8 +43,7 @@ nav {
 }
 
 .two {
-    height: 50%;
-    width: 300%;
+    height: 500px;
     background-image: url(images/pexels-jplenio-1103970.jpg);
     background-size: cover;
     background-position: center;
