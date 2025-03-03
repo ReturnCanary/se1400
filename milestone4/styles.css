@@ -1,11 +1,10 @@
 
-
 #wrapper {
     display: grid;
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
     grid-auto-rows: auto;
     background-color: rgba(235, 76, 14, 0.3);
-    margin: 0 50px;
+    margin: 0px 50px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -43,9 +42,19 @@ nav {
 }
 
 .two {
-    height: 500px;
+    height: 200px;
     background-image: url(images/pexels-jplenio-1103970.jpg);
     background-size: cover;
     background-position: center;
+    grid-column: 1 / -1;
+}
+
+.three {
+    grid-column: 1/ 4;
+    font-size: large;
+}
+
+.four {
+    grid-column: 6 / 8;
 
 }
