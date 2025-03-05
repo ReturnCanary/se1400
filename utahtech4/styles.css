@@ -167,6 +167,20 @@ nav a:hover {
 @media only screen and (max-width: 1100px)
 {
     #wrapper{
-        grid-template-columns: ;
+        grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+
+    nav {
+        grid-row: 2/3;
+        grid-column: 1/5;
+        position: static;
+    }
+    nav ul {
+        display: flex;
+        flex-flow: column nowrap;
     }
 }
