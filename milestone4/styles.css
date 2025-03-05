@@ -44,6 +44,10 @@ nav {
     border: 5px solid #333;
     margin: 0;
 }
+nav a {
+    text-decoration: none;
+    color: black;
+}
 
 .two {
     height: 00px;
