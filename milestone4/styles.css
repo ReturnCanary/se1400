@@ -66,3 +66,9 @@ nav a {
     grid-column: 6 / 7;
     font-size: large;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
