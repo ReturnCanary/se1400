@@ -67,9 +67,9 @@ nav a {
     font-size: large;
 }
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
     #wrapper {
-        grid-template-columns: minmax(0px, 1fr) repeat(3, minmax(0, 175px)) 768px repeat(3, minmax(0, 175px)) minmax(0px, 1fr);
+        grid-template-columns: minmax(0px, 1fr) repeat(3, minmax(0, 175px))minmax(0px, 1fr);
     }
     
     .flex-container {
@@ -80,18 +80,14 @@ nav a {
 }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     #wrapper {
-        grid-template-columns: (3, minmax(0, 175px)) 768px repeat(3, minmax(0, 175px));
+        grid-template-columns: (3, minmax(0, 175px))repeat(3, minmax(0, 175px));
     }
     .flex-container{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 10px;
         height: auto;
-    }
-    header, nav, footer {
-        grid-column: 1 / -1; 
     }
 }
