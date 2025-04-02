@@ -67,8 +67,9 @@ nav a {
     font-size: large;
 }
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
     #wrapper {
+<<<<<<< HEAD
         grid-template-columns: minmax(0px, 1fr) repeat(3, minmax(0, 175px)768px repeat(3, minmax(0, 175px)) minmax(0px, 1fr));
     }
 }
@@ -76,8 +77,27 @@ nav a {
 @media (max-width: 768px) {
     #wrapper {
         grid-template-columns: (3, minmax(0, 175px)768px repeat(3, minmax(0, 175px)));
+=======
+        grid-template-columns: minmax(0px, 1fr) repeat(3, minmax(0, 175px))minmax(0px, 1fr);
+>>>>>>> 5cca85c083d4922534cbf8937a9114791afc19f0
     }
     
+    .flex-container {
+    display: flex;
+    justify-content: center;
 
+    
+}
+}
 
+@media only screen and (max-width: 768px) {
+    #wrapper {
+        grid-template-columns: (3, minmax(0, 175px))repeat(3, minmax(0, 175px));
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
 }
