@@ -20,18 +20,17 @@ nav ul {
 header {
     grid-column: 1 / -1;
     margin: 0;
-    padding: 0;
-}
-header ul {
-    margin: 0;
+    padding: auto;
     display: flex;
-    list-style-type: none;
     width: auto;
-    justify-content: space-between;
-    text-align: justify;
+    justify-content: center;
+    text-align: right;
     border: 5px solid #333;
     border-bottom: none
 }
+/* header ul {
+
+} */
 
 footer {
     grid-column: 1 / -1;
@@ -58,27 +57,38 @@ nav a {
 }
 
 .three {
-    grid-column: 1/ 4;
+    grid-column: 2/ 4;
     font-size: large;
 }
 
 .four {
     grid-column: 6 / 7;
-    font-size: large;
 }
 
 @media only screen and (max-width: 992px) {
     #wrapper {
-        grid-template-columns: minmax(0px, 1fr) repeat(3, minmax(0, 175px)992px repeat(3, minmax(0, 175px)) minmax(0px, 1fr));
+        grid-template-columns: minmax(0px, 1fr) repeat(3, minmax(50px, 175px)) 992px repeat(3, minmax(50px, 175px)) minmax(0px, 1fr);
     }
+
+    .four {
+        grid-column: 4 / 5;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
     #wrapper {
-        grid-template-columns: (3, minmax(0, 175px)768px repeat(3, minmax(0, 175px)));
+        grid-template-columns: repeat(3, minmax(50px, 175px)) repeat(3, minmax(0, 175px));
 
     }
-    
+    header {
+        font-size: 50%;
+        text-align: center;
+
+    }
+    .four {
+        display: flex;
+    }
     .flex-container {
     display: flex;
     justify-content: center;
