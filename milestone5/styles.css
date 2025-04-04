@@ -70,7 +70,6 @@ nav a {
 .three {
     font-size: large;
     flex: 50%;
-    grid-area: 4/2/5/4;
 }
 
 .four {
