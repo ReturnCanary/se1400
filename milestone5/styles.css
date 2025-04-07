@@ -56,14 +56,15 @@ nav a {
     text-decoration: none;
     color: black;
 }
-
+/*Skibidi*/
 .two {
-    height: 50px;
-    /* background-image: url(images/pexels-jplenio-1103970.jpg);
+    height: 200px;
+    width: auto;
+    background-image: url(images/pexels-jplenio-1103970.jpg);
     background-size: cover;
-    background-position: center; */
+    background-position: center;
     grid-column: 1 / -1;
-    width: 100%;
+    grid-row: 3/4;
 
 }
 
