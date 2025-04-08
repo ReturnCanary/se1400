@@ -102,5 +102,8 @@ nav a {
     .four, .three, .two {
         flex: 100%;
     }
+    .three {
+        grid-column: 1 / auto;
+    }
 }
 
