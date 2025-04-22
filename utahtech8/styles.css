@@ -141,6 +141,10 @@ main {
     width: 100%;
     height: auto;
 }
+#shoppingcart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 nav a {
     text-decoration: none;
     color: #FFFFFF;
@@ -236,9 +240,10 @@ label {
         display: flex;
         flex-flow: column nowrap;
     }
-    #homehero, #studenthero, #facultyhero, #alumnihero {
+    #homehero, #studenthero, #facultyhero, #alumnihero, #shophero {
         grid-row: 2 /3 ;
         grid-column: 5 / 8;
+        height: auto;
     }
     main img {
         float: none;
@@ -252,10 +257,13 @@ label {
         height: auto;
     }
 
+    #shoppingcart {
+        grid-column: span2;
+    }
+
     #shophero {
         grid-row: 2/3;
-        grid-column: 2/8;
-        height: auto;
+        grid-column: 5/8;
     }
 }
 @media only screen and (max-width: 600px)
@@ -270,6 +278,9 @@ label {
     }
     #homehero, #studenthero, #facultyhero, #alumnihero, #shophero {
         display: none;
+    }
+    #shoppingcart {
+        grid-column: span1;
     }
 }
 
