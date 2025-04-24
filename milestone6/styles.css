@@ -13,10 +13,13 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    grid-column: 2/7;
+    grid-column: 2/8;
     grid-row: 4/5;
 }
-
+body {
+    background-color: #25274D;
+    color: white;
+}
 nav ul {
     margin: 0px;
     padding: 0px;
@@ -24,6 +27,7 @@ nav ul {
     list-style-type: none;
     width: auto;
     justify-content: space-around;
+
 }
 
 header {
@@ -35,7 +39,8 @@ header {
     justify-content: space-around;
     text-align: right;
     border: 5px solid #333;
-    border-bottom: none
+    border-bottom: none;
+    background-color: #29648A;
 }
 
 br{
@@ -45,6 +50,7 @@ br{
 footer {
     grid-column: 1 / -1;
     border-top: 5px solid #333;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -52,10 +58,12 @@ nav {
     padding: 20px 0;
     border: 5px solid #333;
     margin: 0;
+    background-color: #464866;
 }
 nav a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 20px;
 }
 /*Skibidi*/
 .background {
@@ -76,10 +84,28 @@ nav a {
 }
 .button {
     grid-column: 3 / 4;
+    padding: 10px;
+    flex: 50%;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: #2E9CCA;
+}
+.button a {
+    color: white;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #29648A;
+    color: white;
 }
 #pumpkin_image {
     grid-column: 6 / 7;
-    flex: 50%;
 }
 
 @media only screen and (max-width: 992px) {
