@@ -114,5 +114,8 @@ nav a {
         width: 75%;
         align-content: center;
     }
+    .button {
+        padding: 5px;
+    }
 }
 
