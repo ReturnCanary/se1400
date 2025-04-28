@@ -38,7 +38,7 @@ header {
     width: auto;
     justify-content: space-around;
     text-align: right;
-    border: 5px solid #333;
+    border: 5px solid #2C3E50;
     border-bottom: none;
     background-color: #29648A;
 }
@@ -49,14 +49,15 @@ br{
 
 footer {
     grid-column: 1 / -1;
-    border-top: 5px solid #333;
+    border-top: 5px solid #2C3E50;
+    margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
     grid-column: 1 / -1;
     padding: 20px 0;
-    border: 5px solid #333;
+    border: 5px solid #2C3E50;
     margin: 0;
     background-color: #464866;
 }
@@ -142,6 +143,9 @@ nav a {
     }
     .button {
         padding: 5px;
+    }
+    nav a{
+        font-size: 80%;
     }
 }
 
