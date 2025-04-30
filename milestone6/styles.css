@@ -75,9 +75,19 @@ nav a {
     background-position: center;
     grid-column: 1 / -1;
     grid-row: 3/4;
+    margin-bottom: 20px;
+}
+.about_background {
+    height: 200px;
+    width: auto;
+    background-image: url(images/car_banner.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    grid-column: 1 / -1;
+    grid-row: 3/4;
+    margin-bottom: 20px;
 
 }
-
 .main_text {
     font-size: large;
     flex: 50%;
