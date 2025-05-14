@@ -72,6 +72,12 @@ nav a:hover {
     transform: scale(1.1);
     border-bottom: 4px solid #FFD700;
 }
+nav a:active {
+    transform: scale(0.95); 
+    color: #FFA500; 
+    border-bottom: 2px solid #FFA500;
+}
+
 /*Skibidi*/
 .background {
     height: 200px;
