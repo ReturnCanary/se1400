@@ -66,9 +66,9 @@ nav a {
     color: white;
     font-size: 20px;
     border: 2px transparent;
-    transition: all 0.3s ease;
 }
 nav a:hover {
+    transition: all 0.3s ease;
     transform: scale(1.1);
     border-bottom: 4px solid #FFD700;
 }
