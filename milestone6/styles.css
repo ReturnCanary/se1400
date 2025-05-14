@@ -119,13 +119,14 @@ nav a:active {
     cursor: pointer;
     background-color: #2E9CCA;
 }
-.button a {
+.button {
     color: white;
     text-decoration: none;
 }
 .button:hover {
     background-color: #29648A;
     color: white;
+    text-decoration: none;
 }
 #pumpkin_image {
     grid-column: 6 / 7;
