@@ -70,7 +70,7 @@ nav a {
 }
 nav a:hover {
     transform: scale(1.1);
-    border-bottom: 2px solid #FFD700;
+    border-bottom: 4px solid #FFD700;
 }
 /*Skibidi*/
 .background {
